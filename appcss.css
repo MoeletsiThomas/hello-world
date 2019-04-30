@@ -1,0 +1,60 @@
+
+/* app.css  */
+
+/* position */
+.position-absolute{ position: absolute; } .position-relative{ position: relative; } .float-left{ float: left; } .float-right{ float: rigth; } .clear-right{ clear: right; } .clear-left{ clear: left; } .clear-both{clear:both} .width-1-3{ width: 30%; } .width-2-3{ width: 62%; } .width-1-4{ width: 22%; } .width-1-2{ width: 46%; } .width-3-4{ width: 71%; } .image-float-right img{float: right;}
+
+/* tables */
+.screen .datatable table{width: 100%;}.screen .datatable th{color:#000000;  background:#a6a6a6;  border-bottom:1px solid #22262e;  border-right: 1px solid #22262e;  font-weight: normal;  padding:10px;  text-align:left;  vertical-align:middle;}.screen .datatable th:last-child{border-right:none;} .screen .datatable tr{border-top: 1px solid #C1C3D1;  border-bottom-: 1px solid #C1C3D1;  color:#494949;  font-size:16px;}.screen .datatable tr:hover td{background:#a6a6a6;  color:#FFFFFF;  border-top: 1px solid #22262e;  border-bottom: 1px solid #22262e;}.screen .datatable tr:first-child{border-top:none;}.screen .datatable tr:last-child{border-bottom:none;}.screen .datatable tr:nth-child(odd) td{background:#EBEBEB;}.screen .datatable tr:nth-child(odd):hover td{background:#a6a6a6;}.screen .datatable td{background:#FFFFFF;  padding:12px;  text-align:left;  vertical-align:middle;  border-right: 1px solid #C1C3D1;}.screen .datatable td:last-child{border-right: 0px;}
+
+
+
+/* Text */
+.text-align-center input{text-align: center;} 
+
+
+/* display, show hide */
+.no-arrow.link .link-arrow{display: none;} 
+
+
+
+.toolbox h3, .module-use-header {
+	font-weight: normal;
+}
+
+body, .app-controls a, button.btn, .nav-tabs>li>a{
+	font-size: 13px;
+}
+
+.preview-content-wrapper{
+    display: none;
+}
+.preview .description {
+    font-size: 17px;
+}
+
+.robot{
+	display: none;
+}
+
+.tab-pane.active {
+    background-image: none;
+}
+
+.tab-pane.active h1 {
+    border-top-width: 1px;
+}
+
+.dropdown-menu {
+    font-size: 12px;
+}
+.box2 .app-controls li i.icon-share {
+    font-size: 31px;
+}
+.toolbox .tool{
+	font-size: 22px;
+}
+.navbar .nav>li>a {
+    font-size: 13px;
+    color: #4a4a4a;
+}
